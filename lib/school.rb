@@ -11,7 +11,7 @@ class School                            #School class refers to a "model" in the
     roster[grade] << student_name
   end
 
-  def grade(student_grade)
+  def grade(student_grade)                #retreives students from grade
     roster[student_grade]
   end
 
